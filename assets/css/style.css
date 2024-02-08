@@ -1,0 +1,31 @@
+*{
+    border: 1px dashed black;
+}
+ 
+.debug #site_header{
+    background-color: green;
+}
+
+.debug #site_main{
+
+    & .jumbotron{
+        min-height: 250px;
+        background-color: antiquewhite;
+
+        & .col-12{
+            height: 200px;
+        }
+    }
+
+    & .portfolio{
+
+        & .col-12{
+            height: 100px;
+            background-color: red;
+        }
+
+
+        
+    }
+}
+
