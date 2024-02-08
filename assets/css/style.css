@@ -62,3 +62,12 @@
         }
     }
 }
+
+/* colour palette */
+
+:root{
+    --fl--primary:rgba(26, 188, 156, 1);
+    --fl--secondary:  rgba(44, 62, 80, 1);
+    --fl-lighter: rgba(255, 255, 255, 1);
+    --fl-footer_top-bg:rgba(58, 84, 109, 1);
+}
