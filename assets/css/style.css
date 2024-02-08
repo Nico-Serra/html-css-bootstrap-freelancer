@@ -8,7 +8,7 @@
 
 .debug #site_main{
 
-    & .jumbotron{
+    .jumbotron{
         min-height: 250px;
         background-color: antiquewhite;
 
@@ -17,15 +17,22 @@
         }
     }
 
-    & .portfolio{
+    .portfolio{
 
         & .col-12{
             height: 100px;
             background-color: red;
         }
-
-
+    }
         
+    .about{
+        background-color: aliceblue;
+
+        & .col-12{
+            height: 200px;
+            background-color: purple;
+        }
+
     }
 }
 
