@@ -34,5 +34,31 @@
         }
 
     }
+
+    .contact{
+        & .col-12{
+            height: 300px;
+            background-color: orange;
+        }
+    }
 }
 
+.debug #site_footer{
+    .footer_top{
+        background-color: darkcyan;
+
+        & .col-12{
+            height: 100px;
+            background-color: palegoldenrod;
+        }
+    }
+
+    .footer_bottom{
+        background-color: palevioletred;
+
+        & .col-12{
+            height: 100px;
+            background-color: palegreen;
+        }
+    }
+}
