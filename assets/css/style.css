@@ -84,9 +84,22 @@ body{
     color: var(--fl--secondary);
 }
 
+.color_text_accent{
+    color: var(--fl--primary);
+}
+
 .btn_primary{
     background-color: var(--fl--primary);
     color: var(--fl-lighter);
+}
+
+.square{
+    aspect-ratio: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
 
 
