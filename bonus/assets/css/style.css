@@ -1,0 +1,130 @@
+.debug * {
+    border: 1px dashed black;
+}
+
+.debug #site_main {
+
+    .jumbotron {
+        min-height: 250px;
+
+
+        & .col-12 {
+            height: 200px;
+        }
+    }
+
+    .portfolio {
+
+        & .col-12 {
+            height: 100px;
+            background-color: red;
+
+            .card{
+                height: 100px;
+                background-color: wheat;
+            }
+        }
+    }
+
+    .about {
+
+        & .col-12 {
+            height: 200px;
+            background-color: purple;
+        }
+
+    }
+
+    .contact {
+        & .col-12 {
+            height: 300px;
+            background-color: orange;
+        }
+    }
+}
+
+.debug #site_footer {
+    .footer_top {
+
+        & .col-12 {
+            height: 100px;
+            background-color: palegoldenrod;
+        }
+    }
+
+    .footer_bottom {
+
+        & .col-12 {
+            height: 100px;
+            background-color: palegreen;
+        }
+    }
+}
+
+body{
+    color: var(--fl-lighter);
+}
+
+/* colour palette */
+
+:root {
+    --fl--primary: rgba(26, 188, 156, 1);
+    --fl--secondary: rgba(44, 62, 80, 1);
+    --fl-lighter: rgba(255, 255, 255, 1);
+    --fl-footer_top-bg: rgba(58, 84, 109, 1);
+}
+
+/* #region Utilities */
+
+.bg_secondary{
+    background-color: rgba(44, 62, 80, 1); 
+}
+
+.color_text_dark{
+    color: var(--fl--secondary);
+}
+
+.color_text_accent{
+    color: var(--fl--primary);
+}
+
+.btn_primary{
+    background-color: var(--fl--primary);
+    color: var(--fl-lighter);
+}
+
+.square{
+    aspect-ratio: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+/* #endregion Utilities */
+
+#site_header {
+    background-color: var(--fl--secondary);
+}
+
+
+#site_main {
+
+    .jumbotron,
+    .about {
+        background-color: var(--fl--primary);
+    }
+}
+
+#site_footer{
+
+    .footer_top{
+        background-color: var(--fl-footer_top-bg);
+    }
+
+    .footer_bottom{
+        background-color: var(--fl--secondary);
+    }
+}
