@@ -155,3 +155,25 @@ body{
     opacity: 0.8;
 }
 
+li:hover{
+    border-bottom: 2px solid white;
+}
+
+h2:hover{
+    color: var(--fl--secondary);
+}
+
+.square:hover{
+    background-color: white;
+    color: var(--fl--secondary);
+}
+
+.container>a:hover{
+    font-size: 25px;
+    border-bottom: 2px solid var(--fl-lighter);
+}
+
+.big:hover{
+    font-size: 80px;
+    color: yellow;
+}
