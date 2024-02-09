@@ -1,8 +1,6 @@
-* {
+.debug * {
     border: 1px dashed black;
 }
-
-.debug #site_header {}
 
 .debug #site_main {
 
@@ -71,6 +69,15 @@
     --fl-lighter: rgba(255, 255, 255, 1);
     --fl-footer_top-bg: rgba(58, 84, 109, 1);
 }
+
+/* #region Utilities */
+
+.bg_secondary{
+    background-color: rgba(44, 62, 80, 1); 
+}
+
+
+/* #endregion Utilities */
 
 #site_header {
     background-color: var(--fl--secondary);
