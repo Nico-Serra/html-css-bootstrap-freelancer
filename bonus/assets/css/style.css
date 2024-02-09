@@ -155,6 +155,10 @@ body{
     opacity: 0.8;
 }
 
+.display_none{
+    display: none;
+}
+
 li:hover{
     border-bottom: 2px solid white;
 }
@@ -176,4 +180,17 @@ h2:hover{
 .big:hover{
     font-size: 80px;
     color: yellow;
+}
+
+.jumbotron:hover .display_none{
+    display: inline-block;
+    text-align: center;
+}
+
+.footer_bottom:hover .change{
+    background-color: var(--fl-lighter);
+    font-size: 25px;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--fl--secondary);
 }
