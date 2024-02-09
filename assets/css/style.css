@@ -80,6 +80,10 @@ body{
     background-color: rgba(44, 62, 80, 1); 
 }
 
+.color_text_dark{
+    color: var(--fl--secondary);
+}
+
 
 /* #endregion Utilities */
 
